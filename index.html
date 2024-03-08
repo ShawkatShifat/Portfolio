@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Restraunt</title>
+    <title>Shawkat Jamil</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -17,250 +17,338 @@
                 <span class="line line3"></span>
             </div>
             <ul class="menu-items">
-                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#food">Category</a></li>
-                <li><a href="#food-menu">Menu</a></li>
-                <li><a href="#testimonials">Testimonial</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#social">Socials</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <h1 class="logo">S.J.S</h1>
         </div>
     </nav>
-    <!--
-    <section class="showcase-area" id="showcase">
-        <div class="showcase-container">
-            <h1 class="main-title" id="home">Eat Right Food</h1>
-            <p>Eat Healty, it is good for our health.</p>
-            <a href="#food-menu" class="btn btn-primary">Menu</a>
-        </div>
-    </section>
-    -->
-    <section id="about" style="background-color: black;">
+    <!--Introduction-->
+    <section id="about" style="background-color: rgb(0, 0, 0);">
         <div class="about-wrapper container">
             <div class="about-text">
-                <h2 class="small">Hi <big>!</big> My Name is</h2>
                 <h2>Shawkat Jamil <big>!</big></h2>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse ab
-                    eos omnis, nobis dignissimos perferendis et officia architecto,
-                    fugiat possimus eaque qui ullam excepturi suscipit aliquid optio,
-                    maiores praesentium soluta alias asperiores saepe commodi
-                    consequatur? Perferendis est placeat facere aspernatur!
+                <h2 class="small">I build games and websites.</h2><br>
+                <p>A dedicated software engineer skilled in <big><i><font color="yellow">Java, JavaScript, MERN, HTML, CSS, C++, & Flutter</font></i></big>. 
+                    I thrive in dynamic environments, collaborating with diverse teams to deliver impactful solutions.
                 </p>
             </div>
             <div class="about-img">
-                <img src="profile1.jpeg" alt="My Pic" />
+                <img src="/images/profile1.jpeg" alt="My Pic" />
             </div>
         </div>
     </section>
-    <section id="food" style="background-color: black;">
-        <h2>Types of food</h2>
-        <div class="food-container container">
-            <div class="food-type fruite">
-                <div class="img-container">
-                    <img src="https://i.postimg.cc/yxThVPXk/food1.jpg" alt="error" />
-                    <div class="img-content">
-                        <h3>fruite</h3>
-                        <a href="https://en.wikipedia.org/wiki/Fruit" class="btn btn-primary" target="blank">learn
-                            more</a>
-                    </div>
-                </div>
-            </div>
-            <div class="food-type vegetable">
-                <div class="img-container">
-                    <img src="https://i.postimg.cc/Nffm6Rkk/food2.jpg" alt="error" />
-                    <div class="img-content">
-                        <h3>vegetable</h3>
-                        <a href="https://en.wikipedia.org/wiki/Vegetable" class="btn btn-primary" target="blank">learn
-                            more</a>
-                    </div>
-                </div>
-            </div>
-            <div class="food-type grin">
-                <div class="img-container">
-                    <img src="https://i.postimg.cc/76ZwsPsd/food3.jpg" alt="error" />
-                    <div class="img-content">
-                        <h3>grin</h3>
-                        <a href="https://en.wikipedia.org/wiki/Grain" class="btn btn-primary" target="blank">learn
-                            more</a>
-                    </div>
-                </div>
-            </div>
+    <!--About Me-->
+    <section id="about-me-container">
+        <label id="toggleAbout">Click Here To Unravel!</label>
+        <div id="about-me" style="display: none;">
+          <h2>About Me!</h2>
+          <p>
+            Embarking on a thrilling journey in 2016, I delved into the dynamic realms of game and web development.<br> 
+            Since then, every step has been a thrilling adventure, crafting immersive gaming realms and sculpting sleek digital landscapes.<br> 
+            Currently, at PixelForge, I specialize in blending gaming artistry with web sophistication, creating experiences that blur reality and imagination.
+            <br> Beyond coding, I'm committed to sharing knowledge, empowering aspiring creators to unlock their potential through tutorials and courses.<br>
+            When not immersed in pixels, I'm exploring nature, diving into captivating stories, or embarking on real-life adventures with loved ones. <br>Join me as we redefine the possibilities of creation together.
+          </p>
         </div>
-    </section>
-    <section id="food-menu">
-        <h2 class="food-menu-heading">Food Menu</h2>
-        <div class="food-menu-container container">
-            <div class="food-menu-item">
-                <div class="food-img">
-                    <img src="https://i.postimg.cc/wTLMsvSQ/food-menu1.jpg" alt="" />
+        <div id="hideAbout"><img class="arrow-icon" src="/images/upArrow.png"></div>
+      </section>
+      <!--Coding Languages-->
+      <section id="languages" style="background-color: black;">
+        <h2>Proficient Languages</h2>
+        <div class="languages-container container">
+            <!--1-->
+            <div class="card languages-type java">
+                <div class="image-box">
+                    <img src="/images/java.jpg" alt="Java" />
                 </div>
-                <div class="food-description">
-                    <h2 class="food-titile">Food Menu Item 1</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-                        quae.
-                    </p>
-                    <p class="food-price">Price: &#8377; 250</p>
-                </div>
-            </div>
-
-            <div class="food-menu-item">
-                <div class="food-img">
-                    <img src="https://i.postimg.cc/sgzXPzzd/food-menu2.jpg" alt="error" />
-                </div>
-                <div class="food-description">
-                    <h2 class="food-titile">Food Menu Item 2</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-                        quae.
-                    </p>
-                    <p class="food-price">Price: &#8377; 250</p>
+                <div class="content">
+                    <h3>Java</h3>
+                    <p>Java is a versatile and powerful programming language known for its portability and scalability, making it ideal for building enterprise-level applications.</p>
                 </div>
             </div>
-            <div class="food-menu-item">
-                <div class="food-img">
-                    <img src="https://i.postimg.cc/8zbCtYkF/food-menu3.jpg" alt="" />
+            <!--2-->
+            <div class="card languages-type javascript">
+                <div class="image-box">
+                    <img src="/images/javascript.jpg" alt="Java" />
                 </div>
-                <div class="food-description">
-                    <h2 class="food-titile">Food Menu Item 3</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-                        quae.
-                    </p>
-                    <p class="food-price">Price: &#8377; 250</p>
+                <div class="content">
+                    <h3>JavaScript</h3>
+                    <p>JavaScript is the backbone of modern web development, enabling dynamic and interactive user experiences across a wide range of platforms.</p>
                 </div>
             </div>
-            <div class="food-menu-item">
-                <div class="food-img">
-                    <img src="https://i.postimg.cc/Yq98p5Z7/food-menu4.jpg" alt="" />
+            <!--3-->
+            <div class="card languages-type html-css">
+                <div class="image-box">
+                    <img src="/images/htmlcss.png" alt="Java" />
                 </div>
-                <div class="food-description">
-                    <h2 class="food-titile">Food Menu Item 4</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-                        quae.
-                    </p>
-                    <p class="food-price">Price: &#8377; 250</p>
+                <div class="content">
+                    <h3>HTML & CSS</h3>
+                    <p>CSS and HTML form the foundation of web design, allowing developers to create visually appealing and structured content.</p>
                 </div>
             </div>
-            <div class="food-menu-item">
-                <div class="food-img">
-                    <img src="https://i.postimg.cc/KYnDqxkP/food-menu5.jpg" alt="" />
+            <!--4-->
+            <div class="card languages-type c++">
+                <div class="image-box">
+                    <img src="/images/c++.jpg" alt="Java" />
                 </div>
-                <div class="food-description">
-                    <h2 class="food-titile">Food Menu Item 5</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-                        quae.
-                    </p>
-                    <p class="food-price">Price: &#8377; 250</p>
+                <div class="content">
+                    <h3>C++</h3>
+                    <p>C++ is a high-performance language often used in system programming, game development, and applications requiring efficiency and speed.</p>
                 </div>
             </div>
-            <div class="food-menu-item">
-                <div class="food-img">
-                    <img src="https://i.postimg.cc/Jnxc8xQt/food-menu6.jpg" alt="" />
+            <!--5-->
+            <div class="card languages-type mern">
+                <div class="image-box">
+                    <img src="images/MERN.png" alt="Java" />
                 </div>
-                <div class="food-description">
-                    <h2 class="food-titile">Food Menu Item 6</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-                        quae.
-                    </p>
-                    <p class="food-price">Price: &#8377; 250</p>
+                <div class="content">
+                    <h3>MERN</h3>
+                    <p>The MERN stack, comprising MongoDB, Express.js, React, and Node.js, offers a comprehensive toolkit for developing robust and scalable web applications.</p>
+                </div>
+            </div>
+            <!--6-->
+            <div class="card languages-type flutter">
+                <div class="image-box">
+                    <img src="/images/flutter.jpg" alt="Java" />
+                </div>
+                <div class="content">
+                    <h3>Flutter</h3>
+                    <p>Flutter is a cross-platform framework that empowers developers to build beautiful and natively compiled applications for mobile, web, and desktop from a single codebase.</p>
                 </div>
             </div>
         </div>
     </section>
-    <section id="testimonials" style="background-color: black;">
-        <h2 class="testimonial-title">What Our Customers Say</h2>
-        <div class="testimonial-container container">
-            <div class="testimonial-box">
-                <div class="customer-detail">
-                    <div class="customer-photo">
-                        <img src="https://i.postimg.cc/5Nrw360Y/male-photo1.jpg" alt="" />
-                        <p class="customer-name">Ross Lee</p>
-                    </div>
+    <!--Projects-->
+    <section id="project">
+        <h2 class="project-heading">Projects</h2>
+        <br>
+        <div class="project-card">
+            <div class="project-item">
+                <div class="project-img">
+                    <img src="/images/github.webp" alt="" />
                 </div>
-                <div class="star-rating">
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
+                <div class="project-description">
+                    <a href="https://sample.com/?fish=crow&division=vegetable" target="_blank">Pixel-Puzzle-Solver</a>
+                    <p>
+                        A C++ script for solving pixel-based puzzles using computer vision algorithms.
+                    </p>
                 </div>
-                <p class="testimonial-text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
-                    voluptas cupiditate aspernatur odit doloribus non.
-                </p>
-
             </div>
-            <div class="testimonial-box">
-                <div class="customer-detail">
-                    <div class="customer-photo">
-                        <img src="https://i.postimg.cc/sxd2xCD2/female-photo1.jpg" alt="" />
-                        <p class="customer-name">Amelia Watson</p>
-                    </div>
-                </div>
-                <div class="star-rating">
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                </div>
-                <p class="testimonial-text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
-                    voluptas cupiditate aspernatur odit doloribus non.
-                </p>
 
+            <div class="project-item">
+                <div class="project-img">
+                    <img src="/images/github.webp" alt="" />
+                </div>
+                <div class="project-description">
+                    <a href="https://www.sofa.sample.org/" target="_blank">React-Recipe-App</a>
+                    <p>
+                        A responsive web application built with React for browsing and saving favorite recipes.
+                    </p>
+                </div>
             </div>
-            <div class="testimonial-box">
-                <div class="customer-detail">
-                    <div class="customer-photo">
-                        <img src="https://i.postimg.cc/fy90qvkV/male-photo3.jpg" alt="" />
-                        <p class="customer-name">Ben Roy</p>
-                    </div>
-                </div>
-                <div class="star-rating">
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                </div>
-                <p class="testimonial-text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
-                    voluptas cupiditate aspernatur odit doloribus non.
-                </p>
 
+            <div class="project-item">
+                <div class="project-img">
+                    <img src="/images/github.webp" alt="" />
+                </div>
+                <div class="project-description">
+                    <a href="http://sample.info/bird.php" target="_blank">Unity-RPG-Framework</a>
+                    <p>
+                        A modular framework in Unity for rapid development of role-playing games (RPGs).
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-img">
+                    <img src="/images/github.webp" alt="" />
+                </div>
+                <div class="project-description">
+                    <a href="http://sample.info/north.html" target="_blank">Data-Vis-Dashboard</a>
+                    <p>
+                        An interactive data visualization dashboard created with D3.js for exploring and analyzing datasets.
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-img">
+                    <img src="/images/github.webp" alt="" />
+                </div>
+                <div class="project-description">
+                    <a href="https://sample.info/pencil.aspx" target="_blank">Java-Chat-Server</a>
+                    <p>
+                        A multithreaded chat server implemented in Java for real-time messaging between users.
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-img">
+                    <img src="/images/github.webp" alt="" />
+                </div>
+                <div class="project-description">
+                    <a href="https://www.sample.edu/" target="_blank">Flutter-Weather-App</a>
+                    <p>
+                        A cross-platform weather application developed with Flutter, providing real-time weather forecasts and alerts.
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-img">
+                    <img src="/images/github.webp" alt="" />
+                </div>
+                <div class="project-description">
+                    <a href="https://sample.com/#produce" target="_blank">CSS-Animation-Gallery</a>
+                    <p>
+                        A collection of CSS animations and transitions for creating visually stunning web interfaces.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="project-item">
+                <div class="project-img">
+                    <img src="/images/github.webp" alt="" />
+                </div>
+                <div class="project-description">
+                    <a href="http://sample.net/#direction" target="_blank">C++-Game-Engine</a>
+                    <p>
+                        A lightweight game engine written in C++ for building 2D games with customizable components and entities.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
-    <section id="contact" style="background-color: black;">
-        <div class="contact-container container">
-            <div class="contact-img">
-                <img src="https://i.postimg.cc/1XvYM67V/restraunt2.jpg" alt="" />
+    <br>
+    <!--Experience-->
+    <section id="experience">
+        <h2 class="experience-heading">Experience</h2>
+        <div class="experience-container container">
+            <div class="experience-item">
+                <div class="experience-img">
+                    <img src="/images/nova.png" alt="" />
+                </div>
+                <div class="experience-description">
+                    <h2 class="experience-title">NovaByte Interactive</h2>
+                    <h3>Junior Web Developer</h3>
+                    <p>
+                        Built robust web platforms using JavaScript, React, and Node.js,
+                         collaborating closely with stakeholders to align with brand guidelines and user expectations.
+                    </p>
+                    <p class="experience-duration" style="color: aqua; font-size: 1.3rem;">Duration: 25 Months</p>
+                </div>
             </div>
 
-            <div class="form-container">
-                <h2>Contact Us</h2>
-                <input type="text" placeholder="Your Name" />
-                <input type="email" placeholder="E-Mail" />
-                <textarea cols="30" rows="6" placeholder="Type Your Message"></textarea>
-                <a href="#" class="btn btn-primary">Submit</a>
+            <div class="experience-item">
+                <div class="experience-img">
+                    <img src="/images/dreamforge.png" alt="" />
+                </div>
+                <div class="experience-description">
+                    <h2 class="experience-title">DreamForge Studios</h2>
+                    <h3>Lead Game Developer</h3>
+                    <p>
+                        Led development of 2D platformer game using Unity and C#, refining level designs and 
+                        gameplay elements through extensive playtesting and user feedback iterations.
+                    </p>
+                    <p class="experience-duration" style="color: aqua; font-size: 1.3rem;">Duration: 17 Months</p>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-img">
+                    <img src="/images/webwonders.png" alt="" />
+                </div>
+                <div class="experience-description">
+                    <h2 class="experience-title">WebWonders Innovations</h2>
+                    <h3>Frontend Web Developer</h3>
+                    <p>    
+                    Crafted website front-ends spotlighting animations, accessibility, responsiveness and scalability with HTML, CSS, and JavaScript. 
+                    Integrated third-party APIs for dynamic content.
+                    </p>
+                    <p class="experience-duration" style="color: aqua; font-size: 1.3rem;">Duration: 12 Months</p>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-img">
+                    <img src="/images/vrbawders.png" alt="" />
+                </div>
+                <div class="experience-description">
+                    <h2 class="experience-title">VR-Bawders</h2>
+                    <h3>Lead VR Developer</h3>
+                    <p>
+                        Led development of immersive VR experience using Unreal Engine and C++, collaborating with artists, sound designers, 
+                        and QA testers for seamless cross-platform integration.
+                    </p>
+                    <p class="experience-duration" style="color: aqua; font-size: 1.3rem;">Duration: 51 Months</p>
+                </div>
             </div>
         </div>
     </section>
-    <footer id="footer">
-        <h2>Restraunt &copy; all rights reserved</h2>
-    </footer>
+    <!--Social Media-->
+    <section id="social" style="background-color: black;">
+        <h2 class="social-title">My Socials!</h2>
+        <div class="social-container container">
+            <div class="social-box">
+                <div class="social-detail">
+                    <div class="social-photo">
+                        <img src="/images/facebook.png" alt="" />
+                        <a href="https://www.facebook.com/shawkat.shifat" target="_blank" class="social-name">Facebook</p>
+                    </div>
+                </div>
+            </div>
+            <div class="social-box">
+                <div class="social-detail">
+                    <div class="social-photo">
+                        <img src="/images/instagram.jpg" alt="" />
+                        <a href="https://www.instagram.com/thiiicccaachuuu/" target="_blank" class="social-name">Instagram</p>
+                    </div>
+                </div>
+            </div>
+            <div class="social-box">
+                <div class="social-detail">
+                    <div class="social-photo">
+                        <img src="/images/twitterX1.avif" alt="" />
+                        <a href="https://twitter.com/TheMetalPipee" target="_blank" class="social-name">Twitter</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <a href="mailto:shawkatshifat458@gmail.com" target="_blank">
+            <div id="email">
+                <img src="/images/mail.png"/>
+                <br>
+                <span>Mail Me!</span>
+            </div>
+        </a>
+    </section>
     <!-- .................../ JS Code for smooth scrolling /...................... -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="app.js"></script>
+    <script>
+    document.getElementById('toggleAbout').addEventListener('click', function() {
+    document.getElementById('toggleAbout').style.display = 'none';
+    document.getElementById('about-me').style.display = 'block';
+    document.getElementById('hideAbout').style.display = 'block';
+    });
 
+    document.getElementById('hideAbout').addEventListener('click', function() {
+    document.getElementById('toggleAbout').style.display = 'block';
+    document.getElementById('about-me').style.display = 'none';
+    document.getElementById('hideAbout').style.display = 'none';
+    });
+    </script>
 </html>
 
 </body>
